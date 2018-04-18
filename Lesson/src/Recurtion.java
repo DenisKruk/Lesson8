@@ -35,7 +35,7 @@ public class Recurtion {
         System.out.println("Введите длинну массива");
         int length= scan.nextInt();
         int array[]= new int [length];
-        if(length==0 || length >=10){
+        if(length==0 || length >=10 ){
             System.out.println("длинна должна быть от 1 до 10");
             array=createArray();
         }
